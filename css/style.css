@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'south';
+    src: url('../fonts/southpark.ttf');
+}
+@font-face {
+    font-family:'ourland';
+    src: url('../fonts/Pop\ Mine.otf');
+}
+body{
+    background-image: url(../imagens/backgrounds/background3.png);
+    background-repeat: no-repeats;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    image-rendering: optimizeSpeed;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: 'south';
+    font-weight: 100px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(68, 0, 255);
+}
+
+#cabecalho {
+    background-color: #00000000;
+    margin-bottom: 20px;
+}
+
+#cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#cabecalho #logo {
+    width: 150px;
+}
+
+#cabecalho #menu ul {
+    display: flex; 
+    list-style: none;
+} 
+
+#cabecalho #menu a {
+    display: block;
+    padding: 20px;
+    text-decoration: none; 
+    color: rgb(68, 19, 201);
+    transition: all .5s linear;
+    font-family: 'south';
+}
+
+#cabecalho #menu a:hover{
+    background-color: #0000002a;
+    border-radius: 10%;
+}
+
+#historia {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #00000059;
+}
+
+#historia img {
+    float: left;
+    height: 600px;
+    max-width: auto;
+    margin-top: -75px;
+    
+}
+
+#historia p {
+    text-align: justify;
+    margin-bottom: 15px;
+    text-rendering: optimizeLegibility;
+    color: #e6d4d4;
+    font-size: smaller;
+    font-family: 'ourland';
+
+}
+#personagens{
+    background-color: #0000003f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#personagens .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: bottom 100px;
+    text-align: center;
+}
+#personagens .container div img {
+    display: block;
+    height: 300px;
+}
+#personagens .container a {
+    margin-bottom: 0px;
+    font-family: 'south';
+    color: #ffffff;
+    text-decoration: none;
+}
+#personagens .container img:hover{
+    transform: scale(1.2);
+}
+
+#criadores img {
+    float: left;
+    height: 600px;
+    max-width: auto;
+    margin-top: -75px;
+}
+#criadores p {
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #e6d4d4;
+    font-family: 'ourland' ;
+    font-size: small;
+}
+#criadores {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #00000059;
+}
+
