@@ -1,2 +1,1 @@
-# South-Park
-Fan page - Yuri Alves Moreira
+https://moreirayurrii.github.io/South-Park-fan-page/
